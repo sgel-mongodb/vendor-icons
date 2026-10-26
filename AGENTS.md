@@ -14,6 +14,9 @@
 - Do not silently modernize historical product names or infer product equivalence.
 - Read vendor usage notes under `docs\vendors\`; no repository-wide artwork license
   supersedes vendor terms.
+- Red Hat artwork is CC BY 4.0, not the upstream software's MIT license. Preserve its
+  attribution and pinned `source` links. Standard resources are generic brand icons,
+  not substitutes for OpenShift, RHEL, Ansible, or other product-technology icons.
 - Keep icon bytes unchanged unless an artwork edit is explicitly requested. Never
   deduplicate, rasterize, optimize, or reconstruct artwork as part of routine organization.
 - Preserve original files and provenance in `catalog\migration.csv`. Archived source

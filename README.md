@@ -27,7 +27,7 @@ categories are retained, not mapped to a speculative cross-vendor taxonomy.
 ```
 
 Names use lowercase kebab-case. Vendor identifiers are `aws`, `microsoft`, `google`,
-`mongodb`, and `capgemini`; Microsoft families are `azure` and `fabric`. MongoDB product
+`mongodb`, `capgemini`, and `redhat`; Microsoft families are `azure` and `fabric`. MongoDB product
 families are retained where applicable. Kinds are `service`, `resource`, `category`,
 `group`, `ui`, and `logo`. Parent-service context is retained in resource names.
 
@@ -40,6 +40,7 @@ microsoft-azure-service-batch-ai.svg
 microsoft-fabric-ui-add-pipeline--style-non-item--size-20.svg
 google-service-compute-engine--style-color--size-512.png
 capgemini-logo--style-201x.svg
+redhat-resource-container--style-standard.svg
 ```
 
 The size suffix preserves the vendor's nominal size label, including SVG variants.
@@ -81,10 +82,17 @@ grant a blanket license or imply that all vendors use the same license.
 - MongoDB original slide manifest: `upstream\mongodb\manifest.csv`. Its paths refer to
   the original extraction layout; use `catalog\migration.csv` to resolve current paths.
 - MongoDB contact sheet: `docs\vendors\mongodb\contact-sheet.png`, not an individual icon.
+- Red Hat attribution, CC BY 4.0 artwork license, source links, and import instructions:
+  `docs\vendors\redhat\README.md`. Includes 1,193 original SVGs across the standard,
+  UI, and microns sets; the separately distributed product-technology kit is not included.
 
 MongoDB presentation-kit SVGs contain embedded PNG artwork, not reconstructed vectors.
 The catalog marks these as `raster-embedded`; do not substitute the standalone brand
 logo for an Atlas/product-family icon. Read the original usage guidance.
+
+Downloaded Red Hat records include a `source` object with a pinned upstream URL,
+revision, artwork license, and attribution. Earlier imported vendors retain their
+original provenance fields; missing source-license metadata is not a grant of rights.
 
 Upstream JavaScript/TypeScript files and package metadata are retained for provenance,
 not offered as a working npm package after the artwork has been relocated. Original

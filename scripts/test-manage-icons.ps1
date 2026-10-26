@@ -59,6 +59,18 @@ Atlas,Atlas Charts,55,Atlas/Atlas-Charts.png,Atlas/Atlas-Charts.svg,720,720,unus
     Assert-True ($paths -contains 'svg\mongodb\atlas\mongodb-atlas-resource-charts.svg') 'MongoDB family directory repeated.'
     Assert-True (Test-Path -LiteralPath $pngPath) 'Plan changed source files.'
     Assert-Fails { & $tool -Mode Plan -Root $fixture } '*mapping already exists*'
+    foreach ($row in $mapping) {
+        foreach ($field in @('source_url', 'source_revision', 'source_license', 'source_attribution')) {
+            $row | Add-Member -NotePropertyName $field -NotePropertyValue ''
+        }
+        if ($row.vendor -eq 'google') {
+            $row.source_url = 'https://example.test/source.svg'
+            $row.source_revision = 'fixture-revision'
+            $row.source_license = 'CC-BY-4.0'
+            $row.source_attribution = 'Fixture author'
+        }
+    }
+    $mapping | Export-Csv -LiteralPath (Join-Path $fixture 'catalog\migration.csv') -NoTypeInformation -Encoding utf8
 
     $conflict = Join-Path $fixture 'svg\aws\compute\aws-service-amazon-workspaces--size-32.svg'
     [IO.Directory]::CreateDirectory((Split-Path $conflict -Parent)) | Out-Null
@@ -78,6 +90,12 @@ Atlas,Atlas Charts,55,Atlas/Atlas-Charts.png,Atlas/Atlas-Charts.svg,720,720,unus
     $catalog = Get-Content -LiteralPath $catalogPath -Raw | ConvertFrom-Json
     Assert-True (@($catalog.icons | Where-Object { $_.variants.color_space -eq 'rgb' }).Count -eq 1) 'RGB provenance lost.'
     Assert-True (@($catalog.icons | Where-Object { $_.image.artwork -eq 'raster-embedded' }).Count -eq 1) 'Raster wrapper classification failed.'
+    $sourced = @($catalog.icons | Where-Object vendor -eq 'google')[0]
+    Assert-True ($sourced.source.license -eq 'CC-BY-4.0' -and $sourced.source.attribution -eq 'Fixture author') 'Source attribution lost.'
+    $sourced.source.license = 'incorrect'
+    $catalog | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $catalogPath -Encoding utf8
+    Assert-Fails { & $tool -Mode Validate -Root $fixture } '*Catalog source mismatch*'
+    & $tool -Mode Build -Root $fixture
     [IO.File]::AppendAllText($conflict, 'tampered')
     Assert-Fails { & $tool -Mode Validate -Root $fixture } '*Checksum mismatch*'
     Assert-Fails { & $tool -Mode Build -Root $fixture } '*Checksum mismatch*'

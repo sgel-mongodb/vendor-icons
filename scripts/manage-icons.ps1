@@ -393,7 +393,7 @@ function New-Catalog {
         if ($row.vendor -eq 'google' -and $row.component -eq 'security-operations') { $aliases += 'SecOps' }
         if ($row.vendor -eq 'aws' -and $row.component -eq 'amazon-ec2') { $aliases += 'Elastic Compute Cloud' }
         if ($row.vendor -eq 'aws' -and $row.component -eq 'amazon-s3') { $aliases += 'Simple Storage Service' }
-        $icons.Add([ordered]@{
+        $icon = [ordered]@{
             name = $name; format = $format; path = $row.path
             vendor = $row.vendor; family = $row.family; category = $row.category; kind = $row.kind
             component = $row.component; aliases = @($aliases | Where-Object { $_ } | Sort-Object -Unique)
@@ -402,7 +402,14 @@ function New-Catalog {
             original_path = $row.original_path; original_filename = [IO.Path]::GetFileName($row.original_path)
             source_id = $row.source_id; source_slides = $row.source_slides
             bytes = [long]$row.bytes; sha256 = $row.sha256
-        })
+        }
+        if ($row.PSObject.Properties['source_url'] -and $row.source_url) {
+            $icon.source = [ordered]@{
+                url = $row.source_url; revision = $row.source_revision
+                license = $row.source_license; attribution = $row.source_attribution
+            }
+        }
+        $icons.Add($icon)
     }
     $catalog = [ordered]@{ schema_version = 1; asset_count = $icons.Count; icons = @($icons.ToArray()) }
     $catalog | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $catalogPath -Encoding utf8
@@ -436,6 +443,15 @@ function Test-Repository {
         if ($icon.sha256 -ne $expected[$icon.path].sha256 -or
             $icon.original_path -ne $expected[$icon.path].original_path) {
             throw "Catalog provenance mismatch: $($icon.path)"
+        }
+        $row = $expected[$icon.path]
+        if ($row.PSObject.Properties['source_url'] -and $row.source_url) {
+            if (-not $icon.PSObject.Properties['source']) { throw "Missing source attribution: $($icon.path)" }
+            foreach ($field in @('url', 'revision', 'license', 'attribution')) {
+                if ($icon.source.$field -cne $row.("source_$field")) {
+                    throw "Catalog source mismatch: $($icon.path) [$field]"
+                }
+            }
         }
         if ($icon.path -cnotmatch '^(svg|png)\\[a-z0-9\\-]+\.(svg|png)$' -or
             $icon.path -cnotmatch ('^' + $icon.format + '\\') -or

@@ -10,14 +10,14 @@ original file bytes and recorded checksums on every platform.
 | Folder | Contents |
 | --- | --- |
 | `svg\` | SVG assets, grouped by vendor and then product family/category |
-| `png\` | PNG assets using the same organization where available |
+| `png\` | PNG counterparts using the same organization and basenames |
 | `catalog\icons.json` | Searchable icon metadata, aliases, dimensions, variants, and checksums |
-| `catalog\migration.csv` | Original-to-canonical mapping for every original file, including removed macOS metadata |
+| `catalog\migration.csv` | Original-file mapping, removed metadata inventory, and generated-file derivations |
 | `docs\vendors\` | Original vendor documentation, terms, licenses, and reference images |
 | `upstream\` | Retained non-icon package files, metadata, manifests, and source artwork |
-| `scripts\` | Dependency-free PowerShell 7.4+ migration, catalog, and validation tooling |
+| `scripts\` | PowerShell 7.4+ maintenance tooling; format synchronization also uses pinned resvg |
 
-Empty vendors and missing formats have no placeholder directories. Existing vendor
+Every cataloged icon has both SVG and PNG counterparts. Existing vendor
 categories are retained, not mapped to a speculative cross-vendor taxonomy.
 
 ## Naming
@@ -71,6 +71,44 @@ not a service abstracted across formats. Aliases include original filenames and 
 source captions, with a small set of explicit acronym expansions. They are not inferred
 claims that one product supersedes another.
 
+## Synchronized formats
+
+Original artwork and original PNG sizes remain unchanged. Where an upstream SVG had
+no PNG, an additional PNG was rendered at a **512-pixel longest edge**, preserving its
+aspect ratio and transparency. This is a bounding box, not a forced 512 x 512 square.
+Every canonical variant has matching SVG/PNG paths and basenames.
+
+The 331 AWS `--scale-5x` PNG variants already had corresponding base SVGs. Their SVG
+counterparts are byte-identical copies of those vectors with matching variant names,
+not traced artwork or raster images wrapped in SVG.
+
+Generated records carry a `derivation` object with the source path/checksum, method,
+renderer, and requested longest edge. In the mapping, they use `action=generate` and
+a synthetic `Generated\...` original path rather than claiming to be upstream exports.
+Source attribution and license metadata are inherited where available. Generated
+counterparts remain subject to the original vendor's applicable terms.
+
+To synchronize future imports, obtain the official
+[resvg 0.49.0 Windows x64 ZIP](https://github.com/linebender/resvg/releases/download/v0.49.0/resvg-win-x86_64.zip)
+and extract `resvg.exe` outside the repository:
+
+- ZIP SHA-256: `38af9631b37e61118a32a5ef31e6be6af083eda63b4c17ffc4fdc63e449277df`.
+- Executable SHA-256: `266b45d69cd80aafbd7ff2b6424a6a6c2e476888a535a4ce38d5a055bed95624`.
+
+Verify the ZIP hash before extraction. The synchronization script verifies the executable
+hash before running it; renderer binaries and archives should not be committed.
+
+```powershell
+.\scripts\sync-icon-formats.ps1 -RendererPath 'C:\tools\resvg\resvg.exe'
+.\scripts\manage-icons.ps1 -Mode Build
+.\scripts\manage-icons.ps1 -Mode Validate -RequirePairs
+```
+
+The synchronizer preserves all existing assets, stages new outputs before installation,
+refuses conflicting destinations, and is idempotent. It fails if a PNG-only asset lacks
+a known base vector rather than inventing vector artwork. Regression checks:
+`.\scripts\test-sync-icon-formats.ps1 -RendererPath 'C:\tools\resvg\resvg.exe' -WorkDirectory $env:TEMP`.
+
 ## Provenance and rights
 
 Vendor artwork remains subject to its respective terms. This collection does not
@@ -84,7 +122,8 @@ grant a blanket license or imply that all vendors use the same license.
 - MongoDB contact sheet: `docs\vendors\mongodb\contact-sheet.png`, not an individual icon.
 - Red Hat attribution, CC BY 4.0 artwork license, source links, and import instructions:
   `docs\vendors\redhat\README.md`. Includes 1,193 original SVGs across the standard,
-  UI, and microns sets; the separately distributed product-technology kit is not included.
+  UI, and microns sets, plus generated PNG counterparts; the separately distributed
+  product-technology kit is not included.
 
 MongoDB presentation-kit SVGs contain embedded PNG artwork, not reconstructed vectors.
 The catalog marks these as `raster-embedded`; do not substitute the standalone brand
@@ -105,7 +144,7 @@ Run from the repository root with PowerShell 7.4 or later:
 
 ```powershell
 .\scripts\manage-icons.ps1 -Mode Build
-.\scripts\manage-icons.ps1 -Mode Validate
+.\scripts\manage-icons.ps1 -Mode Validate -RequirePairs
 ```
 
 If local execution policy blocks unsigned scripts, invoke each command in a separate
@@ -113,8 +152,10 @@ process as `pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\manage-icons
 (substituting the desired mode). This does not change the persistent execution policy.
 
 `Build` regenerates the catalog deterministically from the checked-in migration mapping.
-`Validate` checks all retained original file hashes, catalog coverage, naming, image
-metadata, absence of original vendor folders, and absence of macOS packaging debris.
+`Validate` checks all original/generated file hashes, derivations, catalog coverage,
+naming, image metadata, absence of original vendor folders, and absence of macOS
+packaging debris. `-RequirePairs` also rejects any icon without its exact counterpart;
+omit that switch only for intermediate imports or migration fixtures.
 Identical hashes are not automatically deduplicated.
 
 Migration regression checks use a temporary, uniquely named fixture below a supplied
@@ -125,7 +166,8 @@ scratch directory and remove that fixture on completion:
 ```
 
 For future additions, use canonical paths and add corresponding provenance rows to
-`catalog\migration.csv` before rebuilding. Icon rows use `action=move`, `role=icon`;
+`catalog\migration.csv` before synchronizing formats and rebuilding. Original icon rows
+use `action=move`, `role=icon`;
 record the source path, current path, SHA-256, byte count, naming fields and any source
 captions/slides. `original_path` must identify the upstream location, not the current
 canonical path. Leave source-only fields blank when unavailable.

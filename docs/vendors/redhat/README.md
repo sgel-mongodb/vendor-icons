@@ -1,6 +1,6 @@
 # Red Hat icons: attribution and provenance
 
-The Red Hat artwork under `svg\redhat\` is by **Red Hat, Inc.**, obtained from the
+The original Red Hat artwork under `svg\redhat\` is by **Red Hat, Inc.**, obtained from the
 [official Red Hat Icons repository](https://github.com/RedHat-UX/red-hat-icons).
 The upstream package is `@rhds/icons`, version **2.3.1**.
 
@@ -17,9 +17,15 @@ the artwork license, and source links when redistributing these icons. Trademark
 are not granted by CC BY 4.0, and inclusion here does not imply Red Hat endorsement.
 
 The SVG bytes are unchanged. Only their filenames and repository organization differ
-from upstream. No icons were redrawn, recolored, optimized, rasterized, or generated.
+from upstream. No original SVGs were redrawn, recolored, or optimized.
 The catalog records a pinned source URL, revision, license, attribution, and SHA-256
 for every imported icon.
+
+PNG counterparts under `png\redhat\` were rendered from these original SVGs using resvg
+0.49.0 at a 512-pixel longest edge, preserving aspect ratio and transparency. They are
+generated exports, not PNGs supplied by Red Hat. Their catalog `derivation` records
+identify the exact source SVG and renderer, and they retain the same attribution and
+CC BY 4.0 artwork license.
 
 ## Included sets
 
@@ -35,8 +41,8 @@ The upstream set name is preserved as `category` and `--style-<set>`, so similar
 icons in different sets remain distinct. Upstream suffixes such as `-fill` remain in
 the descriptive component name. No nominal size is inferred from the SVG view box.
 
-Only original SVGs are supplied by this source. There is deliberately no generated
-`png\redhat\` directory. The 36 upstream social icons are excluded because this import
+Only original SVGs are supplied by this source; PNGs are generated locally as described
+above. The 36 upstream social icons are excluded because this import
 is for Red Hat brand, diagram, and UI artwork, not another collection of third-party
 social-network logos.
 
@@ -63,8 +69,10 @@ Download the pinned archive without installing or executing upstream software:
 $archive = Join-Path $env:TEMP 'redhat-brand-icons-d4f3eaa.zip'
 Invoke-WebRequest -Uri 'https://codeload.github.com/RedHat-UX/red-hat-icons/zip/d4f3eaa75084faa0025a3f82cde4d4796b7e056e' -OutFile $archive
 .\scripts\import-redhat-icons.ps1 -ArchivePath $archive
+# For a fresh import, generate missing counterparts with the pinned renderer:
+.\scripts\sync-icon-formats.ps1 -RendererPath 'C:\tools\resvg\resvg.exe'
 .\scripts\manage-icons.ps1 -Mode Build
-.\scripts\manage-icons.ps1 -Mode Validate
+.\scripts\manage-icons.ps1 -Mode Validate -RequirePairs
 ```
 
 Regression checks for this importer can be run with
@@ -75,3 +83,4 @@ Expected archive SHA-256:
 The importer checks the archive checksum, exact set counts, naming collisions, existing
 contents, and provenance before writing. Reimporting the pinned archive is idempotent.
 Changing the pinned source requires reviewing the artwork license, counts, and checksum.
+See the root README's synchronized-formats section for renderer download checksums.

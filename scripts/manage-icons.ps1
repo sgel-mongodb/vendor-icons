@@ -2,7 +2,8 @@
 param(
     [ValidateSet('Plan', 'Apply', 'Build', 'Validate')]
     [string]$Mode = 'Validate',
-    [string]$Root = (Split-Path $PSScriptRoot -Parent)
+    [string]$Root = (Split-Path $PSScriptRoot -Parent),
+    [switch]$RequirePairs
 )
 
 Set-StrictMode -Version Latest
@@ -409,6 +410,13 @@ function New-Catalog {
                 license = $row.source_license; attribution = $row.source_attribution
             }
         }
+        if ($row.action -eq 'generate') {
+            $icon.derivation = [ordered]@{
+                method = $row.generation_method; from = $row.derived_from
+                source_sha256 = $row.derived_from_sha256; renderer = $row.renderer
+                longest_edge = $row.render_longest_edge
+            }
+        }
         $icons.Add($icon)
     }
     $catalog = [ordered]@{ schema_version = 1; asset_count = $icons.Count; icons = @($icons.ToArray()) }
@@ -418,10 +426,10 @@ function New-Catalog {
 
 function Test-Repository {
     $rows = Get-Mapping
-    $retained = @($rows | Where-Object action -eq 'move')
+    $retained = @($rows | Where-Object action -in @('move', 'generate'))
     foreach ($row in $retained) {
         Assert-Hash (Get-LocalPath $row.path) $row.sha256
-        if (Test-Path -LiteralPath (Get-LocalPath $row.original_path)) {
+        if ($row.action -eq 'move' -and (Test-Path -LiteralPath (Get-LocalPath $row.original_path))) {
             throw "Original file still exists: $($row.original_path)"
         }
     }
@@ -434,7 +442,10 @@ function Test-Repository {
         throw 'Catalog count does not match the migration mapping.'
     }
     $expected = @{}
-    foreach ($row in $iconRows) { $expected[$row.path] = $row }
+    foreach ($row in $iconRows) {
+        if ($expected.ContainsKey($row.path)) { throw "Duplicate mapped icon: $($row.path)" }
+        $expected[$row.path] = $row
+    }
     $seen = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
     foreach ($icon in $catalog.icons) {
         if (-not $seen.Add($icon.path) -or -not $expected.ContainsKey($icon.path)) {
@@ -450,6 +461,39 @@ function Test-Repository {
             foreach ($field in @('url', 'revision', 'license', 'attribution')) {
                 if ($icon.source.$field -cne $row.("source_$field")) {
                     throw "Catalog source mismatch: $($icon.path) [$field]"
+                }
+            }
+            if ($row.action -eq 'generate') {
+                if (-not $icon.PSObject.Properties['derivation']) { throw "Missing derivation: $($icon.path)" }
+                $fields = @{
+                    method = 'generation_method'; from = 'derived_from'; source_sha256 = 'derived_from_sha256'
+                    renderer = 'renderer'; longest_edge = 'render_longest_edge'
+                }
+                foreach ($field in $fields.Keys) {
+                    if ($icon.derivation.$field -cne $row.($fields[$field])) {
+                        throw "Catalog derivation mismatch: $($icon.path) [$field]"
+                    }
+                }
+                if ($row.derived_from -eq $row.path -or -not $expected.ContainsKey($row.derived_from) -or
+                    $expected[$row.derived_from].sha256 -cne $row.derived_from_sha256) {
+                    throw "Invalid derivation source: $($icon.path)"
+                }
+                Assert-Hash (Get-LocalPath $row.derived_from) $row.derived_from_sha256
+                switch ($row.generation_method) {
+                    'svg-to-png' {
+                        if ($icon.format -ne 'png' -or $row.derived_from -notlike 'svg\*.svg' -or
+                            -not $row.renderer -or [int]$row.render_longest_edge -le 0 -or
+                            [Math]::Max([double]$icon.image.width, [double]$icon.image.height) -ne [int]$row.render_longest_edge) {
+                            throw "Invalid SVG-to-PNG output: $($icon.path)"
+                        }
+                    }
+                    'source-svg-copy' {
+                        if ($icon.format -ne 'svg' -or $row.derived_from -notlike 'svg\*.svg' -or
+                            $row.sha256 -cne $row.derived_from_sha256) {
+                            throw "Copied vector differs from its source: $($icon.path)"
+                        }
+                    }
+                    default { throw "Unsupported generation method: $($row.generation_method)" }
                 }
             }
         }
@@ -468,6 +512,14 @@ function Test-Repository {
         if ($icon.format -eq 'svg' -and $icon.original_path -like 'MongoDB\MongoDB_Presentation_Icon_Kit\*' -and
             $icon.image.artwork -ne 'raster-embedded') {
             throw "MongoDB raster wrapper incorrectly classified: $($icon.path)"
+        }
+        if ($RequirePairs) {
+            $counterpart = if ($icon.format -eq 'svg') {
+                $icon.path -replace '^svg\\', 'png\' -replace '\.svg$', '.png'
+            } else {
+                $icon.path -replace '^png\\', 'svg\' -replace '\.png$', '.svg'
+            }
+            if (-not $expected.ContainsKey($counterpart)) { throw "Missing format counterpart: $counterpart" }
         }
     }
     foreach ($format in @('svg', 'png')) {

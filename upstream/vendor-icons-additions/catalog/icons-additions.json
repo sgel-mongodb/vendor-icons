@@ -1,0 +1,2286 @@
+{
+ "generated": "2026-10-29",
+ "note": "Proposed additions for sgel-mongodb/vendor-icons. Merge into catalog/icons.json after review; paths follow the README layout but the microsoft\\fluent and mcp folders are new.",
+ "icons": [
+  {
+   "name": "microsoft-fluent-ui-building-multiple--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-building-multiple--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-multiple",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_multiple_24_regular.svg",
+    "Building Multiple"
+   ],
+   "suggested_use": "ERP / enterprise apps",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "38146c47c223ade7e4aa9a23464ad85f4e24c5fac20be93fdde6beaabe5e02ac",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Multiple/SVG/ic_fluent_building_multiple_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-multiple--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-building-multiple--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-multiple",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_multiple_24_regular.svg",
+    "Building Multiple"
+   ],
+   "suggested_use": "ERP / enterprise apps",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "66ab6723a200cd2daa053e53f7456f5a548ea274708f1742c5d3bcda8ffd682d",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Multiple/SVG/ic_fluent_building_multiple_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people-team--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-people-team--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "people-team",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_people_team_24_regular.svg",
+    "People Team"
+   ],
+   "suggested_use": "CRM",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "96fa9513b2cc8e2fbcec1b157e1e0ec9afd4c1e276069a0e301331e3817c0655",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People%20Team/SVG/ic_fluent_people_team_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people-team--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-people-team--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "people-team",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_people_team_24_regular.svg",
+    "People Team"
+   ],
+   "suggested_use": "CRM",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "cffc292b85ff83863fb13ab558be354f8e50e31c4e0f69e28251d384d75fe7df",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People%20Team/SVG/ic_fluent_people_team_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-server--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-server--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "server",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_server_24_regular.svg",
+    "Server"
+   ],
+   "suggested_use": "Mainframe / legacy systems",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "e2d12987f2ae094e74e4cfef60fd75889128e9c848e1d6abb6b99af1fe36ab5b",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Server/SVG/ic_fluent_server_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-server--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-server--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "server",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_server_24_regular.svg",
+    "Server"
+   ],
+   "suggested_use": "Mainframe / legacy systems",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "ebeaac788e720ac9db39a758b8dd0a41edc8f4ff5a302da4c079bb43842be73a",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Server/SVG/ic_fluent_server_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-database--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "database",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_database_24_regular.svg",
+    "Database"
+   ],
+   "suggested_use": "Legacy or self-managed database",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "2165ac3416e6ffdc7046b9a57ef6cb9fd9d8d0446c555cacf9ba5f65acc4ec2b",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-database--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "database",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_database_24_regular.svg",
+    "Database"
+   ],
+   "suggested_use": "Legacy or self-managed database",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "25559ce704f9b10611401e9f1fe4bbe8f9bb34de8576c7c5b6f81ec62e17a5cd",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-folder--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-folder--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "folder",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_folder_24_regular.svg",
+    "Folder"
+   ],
+   "suggested_use": "File shares",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "3fa7c567f868e95951f42e6d457224cfad9e964ccffc5e4f5ea53e71fb4c55f6",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Folder/SVG/ic_fluent_folder_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-folder--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-folder--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "folder",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_folder_24_regular.svg",
+    "Folder"
+   ],
+   "suggested_use": "File shares",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "7009f3779f3a16d1fd529672b032475d6290d504c607f349a9580955ddb46418",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Folder/SVG/ic_fluent_folder_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-factory--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-building-factory--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-factory",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_factory_24_regular.svg",
+    "Building Factory"
+   ],
+   "suggested_use": "OT systems",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "03ad547fdee767f493b72f9d964e92446f2ed579c2c7a822b5e21e2dba4a0409",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Factory/SVG/ic_fluent_building_factory_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-factory--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-building-factory--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-factory",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_factory_24_regular.svg",
+    "Building Factory"
+   ],
+   "suggested_use": "OT systems",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "e04f07ada6536c7f3c0a5825ade36742552ccac1a7ccf60410627b49946f9601",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Factory/SVG/ic_fluent_building_factory_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-apps--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-apps--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "apps",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_apps_24_regular.svg",
+    "Apps"
+   ],
+   "suggested_use": "Line-of-business apps",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "95b9da1da75106b0ba610f55105b0a54ea56253085444befd6aadb4d00dc7923",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Apps/SVG/ic_fluent_apps_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-apps--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-apps--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "apps",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_apps_24_regular.svg",
+    "Apps"
+   ],
+   "suggested_use": "Line-of-business apps",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "f49ba4dd931c26955d5531ff567141d2d37db56f67071958158939bfd7da24a0",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Apps/SVG/ic_fluent_apps_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-arrow-import--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-arrow-import--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "arrow-import",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_arrow_import_24_regular.svg",
+    "Arrow Import"
+   ],
+   "suggested_use": "Ingest",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "6127485862903a11594a68c198a721aa6f2a32f85dd2eb795da5b1e3b84151b5",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Arrow%20Import/SVG/ic_fluent_arrow_import_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-arrow-import--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-arrow-import--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "arrow-import",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_arrow_import_24_regular.svg",
+    "Arrow Import"
+   ],
+   "suggested_use": "Ingest",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "0b0d157f18a947f26742a77385d69cb247189b046251cbee42152c0c038f1ba3",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Arrow%20Import/SVG/ic_fluent_arrow_import_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-data-treemap--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-data-treemap--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "data-treemap",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_data_treemap_24_regular.svg",
+    "Data Treemap"
+   ],
+   "suggested_use": "Normalize",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "f3b81b89822885c9e7602d1a4a79ef043f50cf5a19f8321890c420eb75e12b06",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Data%20Treemap/SVG/ic_fluent_data_treemap_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-data-treemap--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-data-treemap--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "data-treemap",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_data_treemap_24_regular.svg",
+    "Data Treemap"
+   ],
+   "suggested_use": "Normalize",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "739393e2fdd1fbb4ba79249704498666176ebdacb715993db0561e100abffa2a",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Data%20Treemap/SVG/ic_fluent_data_treemap_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-shield-checkmark--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-shield-checkmark--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "shield-checkmark",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_shield_checkmark_24_regular.svg",
+    "Shield Checkmark"
+   ],
+   "suggested_use": "Govern",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "7be8616e97bca693da7782fabba2a4d53bf57b7f3dd3cfaa7fbec006728bcbfb",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shield%20Checkmark/SVG/ic_fluent_shield_checkmark_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-shield-checkmark--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-shield-checkmark--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "shield-checkmark",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_shield_checkmark_24_regular.svg",
+    "Shield Checkmark"
+   ],
+   "suggested_use": "Govern",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "f06e8517d69264c998b15df04baaa6aa0333498e0b5b85226238a2e6d09ca575",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shield%20Checkmark/SVG/ic_fluent_shield_checkmark_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-lock-closed--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-lock-closed--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "lock-closed",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_lock_closed_24_regular.svg",
+    "Lock Closed"
+   ],
+   "suggested_use": "Keep data local / security & encryption",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "9af8a93e907c9f4bb1dfa5e3797172872dc6e27b9a292bf949b4220c33319eda",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Lock%20Closed/SVG/ic_fluent_lock_closed_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-lock-closed--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-lock-closed--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "lock-closed",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_lock_closed_24_regular.svg",
+    "Lock Closed"
+   ],
+   "suggested_use": "Keep data local / security & encryption",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "f8970ffee19caa0b031699fe5593200286322df8bf9e529ab0baaa3a2c60d7e3",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Lock%20Closed/SVG/ic_fluent_lock_closed_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-government--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-building-government--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-government",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_government_24_regular.svg",
+    "Building Government"
+   ],
+   "suggested_use": "Data residency & sovereignty",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "90463ed0b69dd4b239f6af4602235d56fe0772e2187b1b9c12fc501ac7dccf01",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Government/SVG/ic_fluent_building_government_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-government--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-building-government--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "building-government",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_building_government_24_regular.svg",
+    "Building Government"
+   ],
+   "suggested_use": "Data residency & sovereignty",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "2a6cf1f066afcb4eff90727f8bb72db1012a039592694aaaeb5522c0c4355d45",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Government/SVG/ic_fluent_building_government_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-organization--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-organization--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "organization",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_organization_24_regular.svg",
+    "Organization"
+   ],
+   "suggested_use": "Operational context",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "56102b3a88709e8599920112e9e26fed562c71e2be049ae6d4d676aaa50690e8",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Organization/SVG/ic_fluent_organization_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-organization--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-organization--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "organization",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_organization_24_regular.svg",
+    "Organization"
+   ],
+   "suggested_use": "Operational context",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "9dc77b866e080484ce2379eb0fdeba8644f1de612ade3f979b8d0dacf74774ec",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Organization/SVG/ic_fluent_organization_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-brain-circuit--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-brain-circuit--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "brain-circuit",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_brain_circuit_24_regular.svg",
+    "Brain Circuit"
+   ],
+   "suggested_use": "Vector + memory",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "c3e68200e315015de421ce0dc51a0f960171dd931619fd3719c37791a3cd2bcd",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Brain%20Circuit/SVG/ic_fluent_brain_circuit_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-brain-circuit--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-brain-circuit--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "brain-circuit",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_brain_circuit_24_regular.svg",
+    "Brain Circuit"
+   ],
+   "suggested_use": "Vector + memory",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "3855c02865a85422b328e83d853acc3a511d4c47cef5221338f939911d29045d",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Brain%20Circuit/SVG/ic_fluent_brain_circuit_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-code--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-code--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "code",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_code_24_regular.svg",
+    "Code"
+   ],
+   "suggested_use": "API-ready data",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "7739b44377d8aabf30e35570412e4f040d5d497833327a645fdb2c59f37a17a9",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Code/SVG/ic_fluent_code_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-code--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-code--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "code",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_code_24_regular.svg",
+    "Code"
+   ],
+   "suggested_use": "API-ready data",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "c986486d7d4ffc1306d03a7c1de14e63244cb0fcb550a8fb0c4c92794d565389",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Code/SVG/ic_fluent_code_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-certificate--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-certificate--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "certificate",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_certificate_24_regular.svg",
+    "Certificate"
+   ],
+   "suggested_use": "Trusted upstream model",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "bea6a3a6e5e710f4009311e1347d177d3a64f96857de166b808b0492f1f79cdf",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Certificate/SVG/ic_fluent_certificate_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-certificate--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-certificate--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "certificate",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_certificate_24_regular.svg",
+    "Certificate"
+   ],
+   "suggested_use": "Trusted upstream model",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "752afce9c4feb0b2f588cbdbbe6e045af1622a3f20e8a53b1b3565c0762c12f8",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Certificate/SVG/ic_fluent_certificate_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-branch--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-branch--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "branch",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_branch_24_regular.svg",
+    "Branch"
+   ],
+   "suggested_use": "Governance & lineage",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "6286ccba8dd1eee964ac8cb294a96289356fbf11bb11f450530fc3679152c907",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Branch/SVG/ic_fluent_branch_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-branch--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-branch--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "branch",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_branch_24_regular.svg",
+    "Branch"
+   ],
+   "suggested_use": "Governance & lineage",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "56e63010fcc42187719d82e92eed6df1ea0241f664b24361d09e5d6bf4911050",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Branch/SVG/ic_fluent_branch_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-arrow-download--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-arrow-download--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "arrow-download",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_arrow_download_24_regular.svg",
+    "Arrow Download"
+   ],
+   "suggested_use": "Data ingestion",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "dafc0c3c76c2cb99350838ed525e926347844e86a67e9060bdee046dce358ab9",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Arrow%20Download/SVG/ic_fluent_arrow_download_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-arrow-download--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-arrow-download--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "arrow-download",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_arrow_download_24_regular.svg",
+    "Arrow Download"
+   ],
+   "suggested_use": "Data ingestion",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "f411cf43317bc35ac7aa64564cf820832f1433bc71217e5788faa91f3bb9baeb",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Arrow%20Download/SVG/ic_fluent_arrow_download_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-table--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-table--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "table",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_table_24_regular.svg",
+    "Table"
+   ],
+   "suggested_use": "Lakehouse & warehousing",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "57cc7b9ae9847bd654875f71f8814718f6b4f409b074cd28c59c8657257ea276",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Table/SVG/ic_fluent_table_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-table--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-table--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "table",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_table_24_regular.svg",
+    "Table"
+   ],
+   "suggested_use": "Lakehouse & warehousing",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "673e5edea37aca65c341ea24b748aeba3ad97fedad2c7251a3e3b8fcdf4ca917",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Table/SVG/ic_fluent_table_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-flowchart--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-flowchart--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "flowchart",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_flowchart_24_regular.svg",
+    "Flowchart"
+   ],
+   "suggested_use": "Semantic modeling",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "6b6b8ca14080f08d78a7d47393815657e8a32a0c0358da115a5cebbda33be690",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Flowchart/SVG/ic_fluent_flowchart_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-flowchart--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-flowchart--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "flowchart",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_flowchart_24_regular.svg",
+    "Flowchart"
+   ],
+   "suggested_use": "Semantic modeling",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "e5a7735be14227cae6fe78b8d1eb246ac445c71765e7b9ae1a6571924423a093",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Flowchart/SVG/ic_fluent_flowchart_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-data-bar-vertical--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-data-bar-vertical--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "data-bar-vertical",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_data_bar_vertical_24_regular.svg",
+    "Data Bar Vertical"
+   ],
+   "suggested_use": "Analytics & insights",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "408e4a77f3c1caabb6cdbdfe3fc36be009ae4311959efb4f2cbe41346ee70bf4",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Data%20Bar%20Vertical/SVG/ic_fluent_data_bar_vertical_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-data-bar-vertical--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-data-bar-vertical--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "data-bar-vertical",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_data_bar_vertical_24_regular.svg",
+    "Data Bar Vertical"
+   ],
+   "suggested_use": "Analytics & insights",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "d48535d792f69b9d8b1603835c0a8d41b34ff9af85037b36b902acf27b65501e",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Data%20Bar%20Vertical/SVG/ic_fluent_data_bar_vertical_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-rocket--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-rocket--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "rocket",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_rocket_24_regular.svg",
+    "Rocket"
+   ],
+   "suggested_use": "Faster grounding",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "ddf47beb8e3a2890090420b2b7ceab0e64750ff2ead39b1cff9b43470ca5cbce",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Rocket/SVG/ic_fluent_rocket_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-rocket--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-rocket--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "rocket",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_rocket_24_regular.svg",
+    "Rocket"
+   ],
+   "suggested_use": "Faster grounding",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "c3245d8ea9c032ac68257c44e27535c5e5a9c39dc4cb26d8478d0a7ce74ee048",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Rocket/SVG/ic_fluent_rocket_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-plug-connected--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-plug-connected--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "plug-connected",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_plug_connected_24_regular.svg",
+    "Plug Connected"
+   ],
+   "suggested_use": "Lower integration effort",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "0bcd2a6dce0f13f2bec6599423bec036c99d925eff1ab257c5585935cacad103",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Plug%20Connected/SVG/ic_fluent_plug_connected_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-plug-connected--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-plug-connected--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "plug-connected",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_plug_connected_24_regular.svg",
+    "Plug Connected"
+   ],
+   "suggested_use": "Lower integration effort",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "409457a62d4dfc79effc2d7e4877804ebb72ae5e1de34cd27a4f81bdb5722e4a",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Plug%20Connected/SVG/ic_fluent_plug_connected_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-target-arrow--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-target-arrow--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "target-arrow",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_target_arrow_24_regular.svg",
+    "Target Arrow"
+   ],
+   "suggested_use": "Higher enterprise relevance",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "3aa5136d56beeb03328df7019fe04328f7530f18fb7fc7eaddc24ef9775fcca7",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Target%20Arrow/SVG/ic_fluent_target_arrow_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-target-arrow--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-target-arrow--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "target-arrow",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_target_arrow_24_regular.svg",
+    "Target Arrow"
+   ],
+   "suggested_use": "Higher enterprise relevance",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "32a9b53e96e16d3ae7f31dc5c3430f819500af7ff873d673930214d656c0d787",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Target%20Arrow/SVG/ic_fluent_target_arrow_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-shield-lock--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-shield-lock--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "shield-lock",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_shield_lock_24_regular.svg",
+    "Shield Lock"
+   ],
+   "suggested_use": "Security & compliance",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "df61a6ddb2ae613a941d780410f297c9a154f015cec4aca4ad8a8edb3adad8b7",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shield%20Lock/SVG/ic_fluent_shield_lock_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-shield-lock--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-shield-lock--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "shield-lock",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_shield_lock_24_regular.svg",
+    "Shield Lock"
+   ],
+   "suggested_use": "Security & compliance",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "c5857e44e284766dbd3fb8294d2b2730baab2effd74b82544dc1e9526bc6d2fc",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shield%20Lock/SVG/ic_fluent_shield_lock_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-pulse--style-regular--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-pulse--style-regular--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "pulse",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_pulse_24_regular.svg",
+    "Pulse"
+   ],
+   "suggested_use": "Observability",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "f01d7f2a1e4ad6e0a9077bb1ca03e1247a88a4878a1bc91279e24e92d562b738",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Pulse/SVG/ic_fluent_pulse_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-pulse--style-regular--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-pulse--style-regular--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "pulse",
+   "variants": {
+    "style": "regular",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_pulse_24_regular.svg",
+    "Pulse"
+   ],
+   "suggested_use": "Observability",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "27d8095a8c14fe84341c8570cc38ebb738fe1008ef4bd633faba48bbe711239c",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Pulse/SVG/ic_fluent_pulse_24_regular.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "mcp-logo--style-simple-icons",
+   "path": "svg\\mcp\\mcp-logo--style-simple-icons.svg",
+   "format": "svg",
+   "vendor": "mcp",
+   "family": null,
+   "kind": "logo",
+   "component": "model-context-protocol",
+   "variants": {
+    "style": "simple-icons",
+    "size": null
+   },
+   "aliases": [
+    "Model Context Protocol",
+    "MCP",
+    "modelcontextprotocol.svg",
+    "MongoDB MCP Server"
+   ],
+   "suggested_use": "Model Context Protocol (MongoDB MCP Server path)",
+   "image": {
+    "width": null,
+    "height": null,
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "e8ff6fc36af8a08780bf95d14a7b3009c189d6758ea280c3be69debd87495436",
+   "source": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/modelcontextprotocol.svg",
+    "retrieved": "2026-10-29",
+    "license": "CC0-1.0 (Simple Icons SVG). Model Context Protocol name and mark belong to their owner; trademark rights not granted.",
+    "derivation": null
+   }
+  },
+  {
+   "name": "mcp-logo--style-simple-icons",
+   "path": "png\\mcp\\mcp-logo--style-simple-icons.png",
+   "format": "png",
+   "vendor": "mcp",
+   "family": null,
+   "kind": "logo",
+   "component": "model-context-protocol",
+   "variants": {
+    "style": "simple-icons",
+    "size": null
+   },
+   "aliases": [
+    "Model Context Protocol",
+    "MCP",
+    "modelcontextprotocol.svg",
+    "MongoDB MCP Server"
+   ],
+   "suggested_use": "Model Context Protocol (MongoDB MCP Server path)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "8698dcd7d736082c19591b57d3be10a14bb852684e39bba002bed373469dac94",
+   "source": {
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/modelcontextprotocol.svg",
+    "retrieved": "2026-10-29",
+    "license": "CC0-1.0 (Simple Icons SVG). Model Context Protocol name and mark belong to their owner; trademark rights not granted.",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice); transparent background rebuilt from luminance; original glyph colour (#212121 Fluent / #000000 MCP) kept; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-color--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-database--style-color--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "database",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_database_24_color.svg"
+   ],
+   "suggested_use": "Mainframe & legacy databases (colour)",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "541a5308fdd4298ad357634f45e78100010baedee0d427cd6d552ac8bffb6d56",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-color--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-database--style-color--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "database",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_database_24_color.svg"
+   ],
+   "suggested_use": "Mainframe & legacy databases (colour)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "430c02dd1b79b95d6006ac10d71ddb9602d74db6e79138f19817eef6346bf50c",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px; transparency recovered by white/black double render; colours unchanged; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people--style-color--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-people--style-color--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "people",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_people_24_color.svg"
+   ],
+   "suggested_use": "Users",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "566a4ac2925c713a3240d5e904af846c59480dd15274d257ce6feb2e49d7d08b",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People/SVG/ic_fluent_people_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people--style-color--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-people--style-color--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "people",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_people_24_color.svg"
+   ],
+   "suggested_use": "Users",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "e51eaa40ca620061ad2454464c888cb51709430d64165b45d2757656430fed7a",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People/SVG/ic_fluent_people_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px; transparency recovered by white/black double render; colours unchanged; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-bot-sparkle--style-color--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-bot-sparkle--style-color--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "bot-sparkle",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_bot_sparkle_24_color.svg"
+   ],
+   "suggested_use": "Foundry Agent Service (generic agent glyph)",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "6993dd53bdc27c8c65af0ceb8f73137e6151e7db5023ea5da5ab0b80420633f1",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Bot%20Sparkle/SVG/ic_fluent_bot_sparkle_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-bot-sparkle--style-color--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-bot-sparkle--style-color--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "bot-sparkle",
+   "variants": {
+    "style": "color",
+    "size": "24"
+   },
+   "aliases": [
+    "ic_fluent_bot_sparkle_24_color.svg"
+   ],
+   "suggested_use": "Foundry Agent Service (generic agent glyph)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "01364bb026a918b7c147c3f869be48493bb1a8460b5d22737b0b3d8e907a75d6",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Bot%20Sparkle/SVG/ic_fluent_bot_sparkle_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons, Copyright (c) 2020 Microsoft Corporation)",
+    "derivation": "Rendered from the original SVG at 512 px; transparency recovered by white/black double render; colours unchanged; aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-product-logo-microsoft-365-copilot",
+   "path": "png\\microsoft\\product\\microsoft-product-logo-microsoft-365-copilot.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "product",
+   "kind": "logo",
+   "component": "microsoft-365-copilot",
+   "variants": {},
+   "aliases": [
+    "Microsoft 365 Copilot",
+    "copilot-365.png"
+   ],
+   "suggested_use": "Microsoft 365 Copilot",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "007a168a97166c9d56804a7c0379b85cf545cf2066f45d1c5b5b6b1e5a01c7f3",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/copilot/copilot-365.png",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft-owned product icon (trademark). Microsoft permits use of Power Platform/Copilot Studio icons in architectural diagrams, training materials and documentation; all other rights reserved. Curated copy from github.com/DamoBird365/microsoft-cloud-icons; no SVG retrieved.",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-product-logo-copilot-studio",
+   "path": "png\\microsoft\\product\\microsoft-product-logo-copilot-studio.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "product",
+   "kind": "logo",
+   "component": "copilot-studio",
+   "variants": {},
+   "aliases": [
+    "Copilot Studio",
+    "copilot-studio.png"
+   ],
+   "suggested_use": "Copilot Studio",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "33c52fc58b53cb8ed2a3e7e5f69de2cfc670f47ef93231230d9f09699cdb42c1",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/power-platform/copilot-studio.png",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft-owned product icon (trademark). Microsoft permits use of Power Platform/Copilot Studio icons in architectural diagrams, training materials and documentation; all other rights reserved. Curated copy from github.com/DamoBird365/microsoft-cloud-icons; no SVG retrieved.",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-power-platform-service-copilot-studio",
+   "path": "svg\\microsoft\\power-platform\\microsoft-power-platform-service-copilot-studio.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "power-platform",
+   "kind": "service",
+   "component": "copilot-studio",
+   "aliases": [
+    "Copilot Studio"
+   ],
+   "suggested_use": "Copilot Studio",
+   "image": {
+    "view_box": null
+   },
+   "sha256": "dfac6755ef583b100badf711977208452e898996d4ca3b0db1cbefe274004c5c",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/power-platform/copilot-studio.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft product icon. Microsoft permits use in architectural diagrams, training materials and documentation (Power Platform icon terms). Mirror: DamoBird365/microsoft-cloud-icons; verify against the official download.",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-power-platform-service-copilot-studio",
+   "path": "png\\microsoft\\power-platform\\microsoft-power-platform-service-copilot-studio.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "power-platform",
+   "kind": "service",
+   "component": "copilot-studio",
+   "aliases": [
+    "Copilot Studio"
+   ],
+   "suggested_use": "Copilot Studio",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "c81a6b27ca36503746e8fa41a735f8ebb92981c3922439b216712fd6ee1e4129",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/power-platform/copilot-studio.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft product icon. Microsoft permits use in architectural diagrams, training materials and documentation (Power Platform icon terms). Mirror: DamoBird365/microsoft-cloud-icons; verify against the official download.",
+    "derivation": "Rendered from the SVG at 512 px (LibreOffice); transparency rebuilt by white/black render difference; colours and aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-copilot-service-microsoft-365-copilot",
+   "path": "svg\\microsoft\\copilot\\microsoft-copilot-service-microsoft-365-copilot.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "copilot",
+   "kind": "service",
+   "component": "microsoft-365-copilot",
+   "aliases": [
+    "Microsoft 365 Copilot"
+   ],
+   "suggested_use": "Microsoft 365 Copilot (without M365 badge)",
+   "image": {
+    "view_box": null
+   },
+   "sha256": "83e1e8b0bf73c382ef68bb997bff7e392250a5c2fbbabd2066dfacdd7483c954",
+   "source": {
+    "url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/microsoft-365-copilot/default.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark; provided for identification only (theSVG). Official brand assets: adoption.microsoft.com.",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-copilot-service-microsoft-365-copilot",
+   "path": "png\\microsoft\\copilot\\microsoft-copilot-service-microsoft-365-copilot.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "copilot",
+   "kind": "service",
+   "component": "microsoft-365-copilot",
+   "aliases": [
+    "Microsoft 365 Copilot"
+   ],
+   "suggested_use": "Microsoft 365 Copilot (without M365 badge)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "9f3b280c98cf92d5e9ff3965ca042ad6a773d91951897d1d3dd8f076046a4acb",
+   "source": {
+    "url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/microsoft-365-copilot/default.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark; provided for identification only (theSVG). Official brand assets: adoption.microsoft.com.",
+    "derivation": "Rendered from the SVG at 512 px (LibreOffice); transparency rebuilt by white/black render difference; colours and aspect ratio preserved."
+   }
+  },
+  {
+   "name": "microsoft-copilot-service-microsoft-365-copilot--style-m365-badge",
+   "path": "png\\microsoft\\copilot\\microsoft-copilot-service-microsoft-365-copilot--style-m365-badge.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "copilot",
+   "kind": "service",
+   "component": "microsoft-365-copilot",
+   "aliases": [
+    "Microsoft 365 Copilot"
+   ],
+   "suggested_use": "Microsoft 365 Copilot (with M365 badge)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "007a168a97166c9d56804a7c0379b85cf545cf2066f45d1c5b5b6b1e5a01c7f3",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/copilot/copilot-365.png",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark; Microsoft icon terms apply. Mirror: DamoBird365/microsoft-cloud-icons (PNG only retrieved; SVG not accessible).",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-multiple--style-color--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-building-multiple--style-color--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-building-multiple-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_building_multiple_24_color.svg",
+    "Enterprise apps & ERP"
+   ],
+   "suggested_use": "Enterprise apps & ERP (colour)",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "1a7646b04f51f680546df2c328862f42adbc1aa32312592fa67ab994af334e88",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Multiple/SVG/ic_fluent_building_multiple_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-building-multiple--style-color--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-building-multiple--style-color--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-building-multiple-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_building_multiple_24_color.svg",
+    "Enterprise apps & ERP"
+   ],
+   "suggested_use": "Enterprise apps & ERP (colour)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "159cbbbc953d268ab6074c671adfc0eb0441ea622f9158346db6de8237abdaa3",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Building%20Multiple/SVG/ic_fluent_building_multiple_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-color--size-48",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-database--style-color--size-48.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-database-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_database_48_color.svg",
+    "Mainframe & legacy / self-managed database"
+   ],
+   "suggested_use": "Mainframe & legacy / self-managed database (colour)",
+   "image": {
+    "width": "48",
+    "height": "48",
+    "view_box": "0 0 48 48"
+   },
+   "sha256": "fb24c190529bd76fa4466fffea2d85ab2af482f9feb2531c3bf21d268991766c",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_48_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-database--style-color--size-48",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-database--style-color--size-48.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-database-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_database_48_color.svg",
+    "Mainframe & legacy / self-managed database"
+   ],
+   "suggested_use": "Mainframe & legacy / self-managed database (colour)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "917a29c3230c26547c4a71b5b28dce6c074a66c901f01d80deeb8b9c5c08d807",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Database/SVG/ic_fluent_database_48_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people--style-color--size-48",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-people--style-color--size-48.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-people-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_people_48_color.svg",
+    "Users"
+   ],
+   "suggested_use": "Users (colour)",
+   "image": {
+    "width": "48",
+    "height": "48",
+    "view_box": "0 0 48 48"
+   },
+   "sha256": "2ba3b68801453ac8ec4bd4f9d585ff97951546b352f7fdba630e4d8d07160ada",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People/SVG/ic_fluent_people_48_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-people--style-color--size-48",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-people--style-color--size-48.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-people-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_people_48_color.svg",
+    "Users"
+   ],
+   "suggested_use": "Users (colour)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "97459a6e5b1799ceed40a07bc04f0eab4b8701b14846533287228adbf0ce63df",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/People/SVG/ic_fluent_people_48_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-bot--style-color--size-24",
+   "path": "svg\\microsoft\\fluent\\microsoft-fluent-ui-bot--style-color--size-24.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-bot-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_bot_24_color.svg",
+    "Agent"
+   ],
+   "suggested_use": "Agent (stand-in for Foundry Agent Service; not the official service icon)",
+   "image": {
+    "width": "24",
+    "height": "24",
+    "view_box": "0 0 24 24"
+   },
+   "sha256": "1c87e07b7ba4843b76e090370276c0699faa6e0cab1c9592cb8881d4ff51a52f",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Bot/SVG/ic_fluent_bot_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-fluent-ui-bot--style-color--size-24",
+   "path": "png\\microsoft\\fluent\\microsoft-fluent-ui-bot--style-color--size-24.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "fluent",
+   "kind": "ui",
+   "component": "fluent-bot-color",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "ic_fluent_bot_24_color.svg",
+    "Agent"
+   ],
+   "suggested_use": "Agent (stand-in for Foundry Agent Service; not the official service icon)",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "992b826224ea78f3ac21b882f5900678b2260111b7fc7a5d82776feccadeceb9",
+   "source": {
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Bot/SVG/ic_fluent_bot_24_color.svg",
+    "retrieved": "2026-10-29",
+    "license": "MIT (Microsoft Fluent UI System Icons)",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  },
+  {
+   "name": "microsoft-copilot-logo-microsoft-365-copilot",
+   "path": "svg\\microsoft\\copilot\\microsoft-copilot-logo-microsoft-365-copilot.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "copilot",
+   "kind": "logo",
+   "component": "m365-copilot",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "default.svg",
+    "Microsoft 365 Copilot product logo"
+   ],
+   "suggested_use": "Microsoft 365 Copilot product logo",
+   "image": {
+    "width": "48",
+    "height": "48",
+    "view_box": "0 0 48 48"
+   },
+   "sha256": "83e1e8b0bf73c382ef68bb997bff7e392250a5c2fbbabd2066dfacdd7483c954",
+   "source": {
+    "url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/microsoft-365-copilot/default.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark. Retrieved via theSVG (MIT codebase; brand icons remain property of the trademark holder, nominative use). Follow Microsoft brand guidelines (adoption.microsoft.com).",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-copilot-logo-microsoft-365-copilot",
+   "path": "png\\microsoft\\copilot\\microsoft-copilot-logo-microsoft-365-copilot.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "copilot",
+   "kind": "logo",
+   "component": "m365-copilot",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "default.svg",
+    "Microsoft 365 Copilot product logo"
+   ],
+   "suggested_use": "Microsoft 365 Copilot product logo",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "9f3b280c98cf92d5e9ff3965ca042ad6a773d91951897d1d3dd8f076046a4acb",
+   "source": {
+    "url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/microsoft-365-copilot/default.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark. Retrieved via theSVG (MIT codebase; brand icons remain property of the trademark holder, nominative use). Follow Microsoft brand guidelines (adoption.microsoft.com).",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  },
+  {
+   "name": "microsoft-power-platform-logo-copilot-studio",
+   "path": "svg\\microsoft\\power-platform\\microsoft-power-platform-logo-copilot-studio.svg",
+   "format": "svg",
+   "vendor": "microsoft",
+   "family": "power-platform",
+   "kind": "logo",
+   "component": "copilot-studio",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "copilot-studio.svg",
+    "Copilot Studio product logo"
+   ],
+   "suggested_use": "Copilot Studio product logo",
+   "image": {
+    "width": "256",
+    "height": "256",
+    "view_box": "0 0 96 96"
+   },
+   "sha256": "dfac6755ef583b100badf711977208452e898996d4ca3b0db1cbefe274004c5c",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/power-platform/copilot-studio.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark. Retrieved via DamoBird365/microsoft-cloud-icons (\"official SVG and PNG icons\"; all logos property of Microsoft). Microsoft permits Power Platform icons in architecture diagrams, training and documentation (learn.microsoft.com/power-platform/guidance/icons).",
+    "derivation": null
+   }
+  },
+  {
+   "name": "microsoft-power-platform-logo-copilot-studio",
+   "path": "png\\microsoft\\power-platform\\microsoft-power-platform-logo-copilot-studio.png",
+   "format": "png",
+   "vendor": "microsoft",
+   "family": "power-platform",
+   "kind": "logo",
+   "component": "copilot-studio",
+   "variants": {
+    "style": "color"
+   },
+   "aliases": [
+    "copilot-studio.svg",
+    "Copilot Studio product logo"
+   ],
+   "suggested_use": "Copilot Studio product logo",
+   "image": {
+    "width": 512,
+    "height": 512
+   },
+   "sha256": "c81a6b27ca36503746e8fa41a735f8ebb92981c3922439b216712fd6ee1e4129",
+   "source": {
+    "url": "https://raw.githubusercontent.com/DamoBird365/microsoft-cloud-icons/master/icons/power-platform/copilot-studio.svg",
+    "retrieved": "2026-10-29",
+    "license": "Microsoft trademark. Retrieved via DamoBird365/microsoft-cloud-icons (\"official SVG and PNG icons\"; all logos property of Microsoft). Microsoft permits Power Platform icons in architecture diagrams, training and documentation (learn.microsoft.com/power-platform/guidance/icons).",
+    "derivation": "Rendered from the original SVG at 512 px (LibreOffice) with alpha recovered from black/white renders; colours and aspect ratio unchanged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+# Microsoft product icons (Microsoft 365 Copilot, Copilot Studio)
+
+* Files: png/microsoft/product/microsoft-product-logo-microsoft-365-copilot.png, microsoft-product-logo-copilot-studio.png (512 x 512, transparent).
+* Retrieved 2026-10-29 from the curated collection https://github.com/DamoBird365/microsoft-cloud-icons (icons/copilot/copilot-365.png, icons/power-platform/copilot-studio.png). That repository states all logos and icons are the property of Microsoft Corporation and refers to the Microsoft Trademark & Brand Guidelines.
+* Microsoft Learn (Power Platform icons, updated Dec 2025): Microsoft permits use of the Power Platform and Copilot Studio icons in architectural diagrams, training materials or documentation; don't crop, flip, rotate or distort; don't use them to represent your own product; Microsoft reserves all other rights. https://learn.microsoft.com/en-us/power-platform/guidance/icons
+* Recommended: replace with the SVGs from Microsoft's official Power Platform icon download (and the Microsoft 365 Copilot icon from adoption.microsoft.com brand assets) when adding to the repository.
+* Not included: Foundry Agent Service icon (Azure Architecture Icons, July 2026 set). The direct file could not be retrieved; download it from https://learn.microsoft.com/en-us/azure/architecture/icons/ (or the mirror https://az-icons.com/icon/foundry-agent-service). The deck currently uses the generic Fluent "bot sparkle" glyph instead.

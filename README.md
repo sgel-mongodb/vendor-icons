@@ -27,7 +27,8 @@ categories are retained, not mapped to a speculative cross-vendor taxonomy.
 ```
 
 Names use lowercase kebab-case. Vendor identifiers are `aws`, `microsoft`, `google`,
-`mongodb`, `capgemini`, and `redhat`; Microsoft families are `azure` and `fabric`. MongoDB product
+`mongodb`, `capgemini`, `redhat`, and `mcp`; Microsoft families are `azure`, `fabric`,
+`fluent`, `copilot`, and `power-platform`. MongoDB product
 families are retained where applicable. Kinds are `service`, `resource`, `category`,
 `group`, `ui`, and `logo`. Parent-service context is retained in resource names.
 
@@ -124,6 +125,22 @@ grant a blanket license or imply that all vendors use the same license.
   `docs\vendors\redhat\README.md`. Includes 1,193 original SVGs across the standard,
   UI, and microns sets, plus generated PNG counterparts; the separately distributed
   product-technology kit is not included.
+- Fluent UI artwork license: `docs\vendors\microsoft-fluent\LICENSE`.
+- Copilot and Copilot Studio source and usage caveats:
+  `docs\vendors\microsoft-copilot\USAGE.md` and
+  `docs\vendors\microsoft-product\USAGE.md`.
+- Model Context Protocol mark and trademark caveats: `docs\vendors\mcp\USAGE.md`.
+
+The additions archive contributes 76 cataloged SVG/PNG files, preserved byte-for-byte.
+Its original manifest and README are retained under `upstream\vendor-icons-additions\`;
+the manifest records retrieval dates, source URLs, licenses, and the original PNG
+rendering/alpha-recovery methods. These imported PNGs were not regenerated with resvg.
+Three PNG-only variants (the two `microsoft-product-logo-*` files and the Microsoft 365
+Copilot `--style-m365-badge` variant) are retained under that directory's original
+`png\microsoft\` layout as source artwork, not cataloged icons. No matching vector was
+supplied; no SVG was invented or substituted. All 85 imported files are tracked in the
+migration mapping. Archived documents and manifest paths describe the original archive
+layout; use that mapping to find their retained locations.
 
 MongoDB presentation-kit SVGs contain embedded PNG artwork, not reconstructed vectors.
 The catalog marks these as `raster-embedded`; do not substitute the standalone brand
